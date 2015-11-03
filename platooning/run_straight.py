@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import os, sys
 
 if 'SUMO_HOME' in os.environ:
@@ -8,7 +10,19 @@ else:
 
 import traci
 import traci.constants as tc
+import numpy as np
+import socket
+import struct
+import time
 
+#For Driving simulator
+ds_ip = "194.47.15.51"	#driving simulator's IP address
+ds_port = 8888
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sock.connect((ds_ip, ds_port))
+
+
+#For TraCI
 PORT = 8813
 traci.init(PORT)
 
@@ -22,6 +36,7 @@ data = {}
 traci.simulation.subscribe()
 
 
+
 while step < 120:
 	step = traci.simulation.getCurrentTime() / 1000;
 	traci.simulationStep()
@@ -33,7 +48,17 @@ while step < 120:
 
 	for v in runningVehicles:
 		data = traci.vehicle.getSubscriptionResults(v)
-		#print (" '{0}' speed is : '{1}' at position '{2}', '{3}'".format(v, data.get(tc.VAR_SPEED), data.get(tc.VAR_POSITION)[0], data.get(tc.VAR_POSITION)[1]))
-
+		message = "{0}{1}{2}{3}{4}{5}".format(chr(0x02), struct.pack('!I', len(v)), v, struct.pack('!d', data.get(tc.VAR_POSITION)[0]), struct.pack('!d', data.get(tc.VAR_POSITION)[1]), struct.pack('!d',data.get(tc.VAR_SPEED)))
+		msg_size = str(chr(len(message)))
+		message = msg_size + message
+		sock.send(message)
+		#time.sleep(0.01)
 
 traci.close()
+sock.close()
+
+
+
+
+
+

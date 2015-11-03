@@ -1,0 +1,14 @@
+<edges>
+
+    <edge from="start" id="e0_1" to="one_km" type="highway.twolanes" />
+    <edge from="one_km" id="e1_2" to="two_km" type="highway.twolanes" />
+    <edge from="two_km" id="e2_3" to="three_km" type="highway.twolanes" />
+    <edge from="three_km" id="e3_4" to="four_km" type="highway.twolanes" />
+    <edge from="four_km" id="e4_5" to="five_km" type="highway.twolanes" />
+    <edge from="five_km" id="e5_6" to="six_km" type="highway.twolanes" />
+    <edge from="six_km" id="e6_7" to="seven_km" type="highway.twolanes" />
+    <edge from="seven_km" id="e7_8" to="eight_km" type="highway.twolanes" />
+    <edge from="eight_km" id="e8_9" to="nine_km" type="highway.twolanes" />
+    <edge from="nine_km" id="e9_10" to="end" type="highway.twolanes" />
+
+</edges>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Nov  2 18:20:36 2015 by SUMO netconvert Version 0.22.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="straight.nod.xml"/>
+        <edge-files value="straight.edg.xml"/>
+        <type-files value="straight.typ.xml"/>
+    </input>
+
+    <output>
+        <output-file value="straight.net.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<net version="0.13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,10000.00,0.00" origBoundary="0.00,0.00,10000.00,0.00" projParameter="!"/>
+
+    <edge id=":eight_km_0" function="internal">
+        <lane id=":eight_km_0_0" index="0" speed="33.33" length="0.10" shape="8000.00,-4.95 8000.00,-4.95"/>
+        <lane id=":eight_km_0_1" index="1" speed="33.33" length="0.10" shape="8000.00,-1.65 8000.00,-1.65"/>
+    </edge>
+    <edge id=":five_km_0" function="internal">
+        <lane id=":five_km_0_0" index="0" speed="33.33" length="0.10" shape="5000.00,-4.95 5000.00,-4.95"/>
+        <lane id=":five_km_0_1" index="1" speed="33.33" length="0.10" shape="5000.00,-1.65 5000.00,-1.65"/>
+    </edge>
+    <edge id=":four_km_0" function="internal">
+        <lane id=":four_km_0_0" index="0" speed="33.33" length="0.10" shape="4000.00,-4.95 4000.00,-4.95"/>
+        <lane id=":four_km_0_1" index="1" speed="33.33" length="0.10" shape="4000.00,-1.65 4000.00,-1.65"/>
+    </edge>
+    <edge id=":nine_km_0" function="internal">
+        <lane id=":nine_km_0_0" index="0" speed="33.33" length="0.10" shape="9000.00,-4.95 9000.00,-4.95"/>
+        <lane id=":nine_km_0_1" index="1" speed="33.33" length="0.10" shape="9000.00,-1.65 9000.00,-1.65"/>
+    </edge>
+    <edge id=":one_km_0" function="internal">
+        <lane id=":one_km_0_0" index="0" speed="33.33" length="0.10" shape="1000.00,-4.95 1000.00,-4.95"/>
+        <lane id=":one_km_0_1" index="1" speed="33.33" length="0.10" shape="1000.00,-1.65 1000.00,-1.65"/>
+    </edge>
+    <edge id=":seven_km_0" function="internal">
+        <lane id=":seven_km_0_0" index="0" speed="33.33" length="0.10" shape="7000.00,-4.95 7000.00,-4.95"/>
+        <lane id=":seven_km_0_1" index="1" speed="33.33" length="0.10" shape="7000.00,-1.65 7000.00,-1.65"/>
+    </edge>
+    <edge id=":six_km_0" function="internal">
+        <lane id=":six_km_0_0" index="0" speed="33.33" length="0.10" shape="6000.00,-4.95 6000.00,-4.95"/>
+        <lane id=":six_km_0_1" index="1" speed="33.33" length="0.10" shape="6000.00,-1.65 6000.00,-1.65"/>
+    </edge>
+    <edge id=":three_km_0" function="internal">
+        <lane id=":three_km_0_0" index="0" speed="33.33" length="0.10" shape="3000.00,-4.95 3000.00,-4.95"/>
+        <lane id=":three_km_0_1" index="1" speed="33.33" length="0.10" shape="3000.00,-1.65 3000.00,-1.65"/>
+    </edge>
+    <edge id=":two_km_0" function="internal">
+        <lane id=":two_km_0_0" index="0" speed="33.33" length="0.10" shape="2000.00,-4.95 2000.00,-4.95"/>
+        <lane id=":two_km_0_1" index="1" speed="33.33" length="0.10" shape="2000.00,-1.65 2000.00,-1.65"/>
+    </edge>
+
+    <edge id="e0_1" from="start" to="one_km" priority="-1" type="highway.twolanes">
+        <lane id="e0_1_0" index="0" speed="33.33" length="1000.00" shape="0.00,-4.95 1000.00,-4.95"/>
+        <lane id="e0_1_1" index="1" speed="33.33" length="1000.00" shape="0.00,-1.65 1000.00,-1.65"/>
+    </edge>
+    <edge id="e1_2" from="one_km" to="two_km" priority="-1" type="highway.twolanes">
+        <lane id="e1_2_0" index="0" speed="33.33" length="1000.00" shape="1000.00,-4.95 2000.00,-4.95"/>
+        <lane id="e1_2_1" index="1" speed="33.33" length="1000.00" shape="1000.00,-1.65 2000.00,-1.65"/>
+    </edge>
+    <edge id="e2_3" from="two_km" to="three_km" priority="-1" type="highway.twolanes">
+        <lane id="e2_3_0" index="0" speed="33.33" length="1000.00" shape="2000.00,-4.95 3000.00,-4.95"/>
+        <lane id="e2_3_1" index="1" speed="33.33" length="1000.00" shape="2000.00,-1.65 3000.00,-1.65"/>
+    </edge>
+    <edge id="e3_4" from="three_km" to="four_km" priority="-1" type="highway.twolanes">
+        <lane id="e3_4_0" index="0" speed="33.33" length="1000.00" shape="3000.00,-4.95 4000.00,-4.95"/>
+        <lane id="e3_4_1" index="1" speed="33.33" length="1000.00" shape="3000.00,-1.65 4000.00,-1.65"/>
+    </edge>
+    <edge id="e4_5" from="four_km" to="five_km" priority="-1" type="highway.twolanes">
+        <lane id="e4_5_0" index="0" speed="33.33" length="1000.00" shape="4000.00,-4.95 5000.00,-4.95"/>
+        <lane id="e4_5_1" index="1" speed="33.33" length="1000.00" shape="4000.00,-1.65 5000.00,-1.65"/>
+    </edge>
+    <edge id="e5_6" from="five_km" to="six_km" priority="-1" type="highway.twolanes">
+        <lane id="e5_6_0" index="0" speed="33.33" length="1000.00" shape="5000.00,-4.95 6000.00,-4.95"/>
+        <lane id="e5_6_1" index="1" speed="33.33" length="1000.00" shape="5000.00,-1.65 6000.00,-1.65"/>
+    </edge>
+    <edge id="e6_7" from="six_km" to="seven_km" priority="-1" type="highway.twolanes">
+        <lane id="e6_7_0" index="0" speed="33.33" length="1000.00" shape="6000.00,-4.95 7000.00,-4.95"/>
+        <lane id="e6_7_1" index="1" speed="33.33" length="1000.00" shape="6000.00,-1.65 7000.00,-1.65"/>
+    </edge>
+    <edge id="e7_8" from="seven_km" to="eight_km" priority="-1" type="highway.twolanes">
+        <lane id="e7_8_0" index="0" speed="33.33" length="1000.00" shape="7000.00,-4.95 8000.00,-4.95"/>
+        <lane id="e7_8_1" index="1" speed="33.33" length="1000.00" shape="7000.00,-1.65 8000.00,-1.65"/>
+    </edge>
+    <edge id="e8_9" from="eight_km" to="nine_km" priority="-1" type="highway.twolanes">
+        <lane id="e8_9_0" index="0" speed="33.33" length="1000.00" shape="8000.00,-4.95 9000.00,-4.95"/>
+        <lane id="e8_9_1" index="1" speed="33.33" length="1000.00" shape="8000.00,-1.65 9000.00,-1.65"/>
+    </edge>
+    <edge id="e9_10" from="nine_km" to="end" priority="-1" type="highway.twolanes">
+        <lane id="e9_10_0" index="0" speed="33.33" length="1000.00" shape="9000.00,-4.95 10000.00,-4.95"/>
+        <lane id="e9_10_1" index="1" speed="33.33" length="1000.00" shape="9000.00,-1.65 10000.00,-1.65"/>
+    </edge>
+
+    <junction id="eight_km" type="priority" x="8000.00" y="0.00" incLanes="e7_8_0 e7_8_1" intLanes=":eight_km_0_0 :eight_km_0_1" shape="8000.00,-0.05 8000.00,-6.55 8000.00,-0.05">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="end" type="unregulated" x="10000.00" y="0.00" incLanes="e9_10_0 e9_10_1" intLanes="" shape="10000.00,-6.55 10000.00,-0.05"/>
+    <junction id="five_km" type="priority" x="5000.00" y="0.00" incLanes="e4_5_0 e4_5_1" intLanes=":five_km_0_0 :five_km_0_1" shape="5000.00,-0.05 5000.00,-6.55 5000.00,-0.05">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="four_km" type="priority" x="4000.00" y="0.00" incLanes="e3_4_0 e3_4_1" intLanes=":four_km_0_0 :four_km_0_1" shape="4000.00,-0.05 4000.00,-6.55 4000.00,-0.05">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="nine_km" type="priority" x="9000.00" y="0.00" incLanes="e8_9_0 e8_9_1" intLanes=":nine_km_0_0 :nine_km_0_1" shape="9000.00,-0.05 9000.00,-6.55 9000.00,-0.05">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="one_km" type="priority" x="1000.00" y="0.00" incLanes="e0_1_0 e0_1_1" intLanes=":one_km_0_0 :one_km_0_1" shape="1000.00,-0.05 1000.00,-6.55 1000.00,-0.05">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="seven_km" type="priority" x="7000.00" y="0.00" incLanes="e6_7_0 e6_7_1" intLanes=":seven_km_0_0 :seven_km_0_1" shape="7000.00,-0.05 7000.00,-6.55 7000.00,-0.05">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="six_km" type="priority" x="6000.00" y="0.00" incLanes="e5_6_0 e5_6_1" intLanes=":six_km_0_0 :six_km_0_1" shape="6000.00,-0.05 6000.00,-6.55 6000.00,-0.05">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="start" type="unregulated" x="0.00" y="0.00" incLanes="" intLanes="" shape="-0.00,-0.05 -0.00,-6.55"/>
+    <junction id="three_km" type="priority" x="3000.00" y="0.00" incLanes="e2_3_0 e2_3_1" intLanes=":three_km_0_0 :three_km_0_1" shape="3000.00,-0.05 3000.00,-6.55 3000.00,-0.05">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="two_km" type="priority" x="2000.00" y="0.00" incLanes="e1_2_0 e1_2_1" intLanes=":two_km_0_0 :two_km_0_1" shape="2000.00,-0.05 2000.00,-6.55 2000.00,-0.05">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+
+    <connection from="e0_1" to="e1_2" fromLane="0" toLane="0" via=":one_km_0_0" dir="s" state="M"/>
+    <connection from="e0_1" to="e1_2" fromLane="1" toLane="1" via=":one_km_0_1" dir="s" state="M"/>
+    <connection from="e1_2" to="e2_3" fromLane="0" toLane="0" via=":two_km_0_0" dir="s" state="M"/>
+    <connection from="e1_2" to="e2_3" fromLane="1" toLane="1" via=":two_km_0_1" dir="s" state="M"/>
+    <connection from="e2_3" to="e3_4" fromLane="0" toLane="0" via=":three_km_0_0" dir="s" state="M"/>
+    <connection from="e2_3" to="e3_4" fromLane="1" toLane="1" via=":three_km_0_1" dir="s" state="M"/>
+    <connection from="e3_4" to="e4_5" fromLane="0" toLane="0" via=":four_km_0_0" dir="s" state="M"/>
+    <connection from="e3_4" to="e4_5" fromLane="1" toLane="1" via=":four_km_0_1" dir="s" state="M"/>
+    <connection from="e4_5" to="e5_6" fromLane="0" toLane="0" via=":five_km_0_0" dir="s" state="M"/>
+    <connection from="e4_5" to="e5_6" fromLane="1" toLane="1" via=":five_km_0_1" dir="s" state="M"/>
+    <connection from="e5_6" to="e6_7" fromLane="0" toLane="0" via=":six_km_0_0" dir="s" state="M"/>
+    <connection from="e5_6" to="e6_7" fromLane="1" toLane="1" via=":six_km_0_1" dir="s" state="M"/>
+    <connection from="e6_7" to="e7_8" fromLane="0" toLane="0" via=":seven_km_0_0" dir="s" state="M"/>
+    <connection from="e6_7" to="e7_8" fromLane="1" toLane="1" via=":seven_km_0_1" dir="s" state="M"/>
+    <connection from="e7_8" to="e8_9" fromLane="0" toLane="0" via=":eight_km_0_0" dir="s" state="M"/>
+    <connection from="e7_8" to="e8_9" fromLane="1" toLane="1" via=":eight_km_0_1" dir="s" state="M"/>
+    <connection from="e8_9" to="e9_10" fromLane="0" toLane="0" via=":nine_km_0_0" dir="s" state="M"/>
+    <connection from="e8_9" to="e9_10" fromLane="1" toLane="1" via=":nine_km_0_1" dir="s" state="M"/>
+
+    <connection from=":eight_km_0" to="e8_9" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":eight_km_0" to="e8_9" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":five_km_0" to="e5_6" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":five_km_0" to="e5_6" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":four_km_0" to="e4_5" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":four_km_0" to="e4_5" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":nine_km_0" to="e9_10" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":nine_km_0" to="e9_10" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":one_km_0" to="e1_2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":one_km_0" to="e1_2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":seven_km_0" to="e7_8" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":seven_km_0" to="e7_8" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":six_km_0" to="e6_7" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":six_km_0" to="e6_7" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":three_km_0" to="e3_4" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":three_km_0" to="e3_4" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":two_km_0" to="e2_3" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":two_km_0" to="e2_3" fromLane="1" toLane="1" dir="s" state="M"/>
+
+</net>

@@ -1,0 +1,17 @@
+<routes>
+    <vType id="vtypeauto" accel="2.5" decel="6.0" sigma="0.5" length="4" minGap="0" maxSpeed="41" color="1,0,0" probability="1" >
+		<carFollowing-CC tauEngine="0.5" omegaN="0.2" xi="1" c1="0.5" decel="9" lanesCount="4" ccAccel="1.5"/>
+	</vType>
+
+    <route id="the_straight_route" edges="e0_1 e1_2 e2_3 e3_4 e4_5 e5_6 e6_7 e7_8 e8_9 e9_10"/>
+    
+    <!-- vehicle id="carOne" depart="1" route="route_right" type="Car" /-->
+    <!-- vehicle id="carTwo" depart="2" route="route_right" type="Car" /-->
+    <!-- vehicle id="carThree" depart="3" route="route_right" type="Car" /-->
+
+    <flow id="platoon0" route="the_straight_route" type="vtypeauto" begin="0" period="1" departLane="0" number="5" departSpeed="27.77"/>
+
+    <!-- flow begin="0" departPos="free" id="car_one" period="1" number="1" route="route_right" type="Car"/-->
+    <!-- flow begin="0" departPos="free" id="car_two" period="2" number="1" route="route_right" type="Car"/-->
+    <!-- flow begin="0" departPos="free" id="car_three" period="3" number="1" route="route_right" type="Car"/-->
+</routes>

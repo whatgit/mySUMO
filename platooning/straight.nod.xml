@@ -1,0 +1,15 @@
+<nodes>
+
+    <node id="start"    x="0.0" y="0.0" />
+    <node id="one_km"   x="1000.0" y="0.0" />
+    <node id="two_km"   x="2000.0" y="0.0" />
+    <node id="three_km" x="3000.0" y="0.0" />
+    <node id="four_km"  x="4000.0" y="0.0" />
+    <node id="five_km"  x="5000.0" y="0.0" />
+    <node id="six_km"   x="6000.0" y="0.0" />
+    <node id="seven_km" x="7000.0" y="0.0" />
+    <node id="eight_km" x="8000.0" y="0.0" />
+    <node id="nine_km"  x="9000.0" y="0.0" />
+    <node id="end"      x="10000.0" y="0.0" />
+    
+</nodes>
